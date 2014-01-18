@@ -1,0 +1,270 @@
+# EESchema Netlist Version 1.1 created  1/17/2014 5:00:12 PM
+(
+ ( /52D9B512 $noname  Q1 2SA1873 {Lib=2SA1873}
+  (    1 IN- )
+  (    2 N-000016 )
+  (    3 IN+ )
+  (    4 N-000005 )
+  (    5 VSS )
+ )
+ ( /52D9B532 $noname  R1 2.2k {Lib=R}
+  (    1 VCC )
+  (    2 N-000017 )
+ )
+ ( /52D9B54B $noname  Q4 2SA1162S {Lib=PNP}
+  (    1 N-000017 )
+  (    2 N-000015 )
+  (    3 N-000016 )
+ )
+ ( /52D9B55D $noname  D1 1N4148 {Lib=DIODE}
+  (    1 N-000012 )
+  (    2 N-000015 )
+ )
+ ( /52D9B56A $noname  D2 1N4148 {Lib=DIODE}
+  (    1 VCC )
+  (    2 N-000012 )
+ )
+ ( /52D9B59C $noname  R2 22k {Lib=R}
+  (    1 N-000015 )
+  (    2 VSS )
+ )
+ ( /52D9B5A9 $noname  R8 4.7k {Lib=R}
+  (    1 N-000015 )
+  (    2 N-000014 )
+ )
+ ( /52D9B5D9 $noname  Q9 2SA1162S {Lib=PNP}
+  (    1 N-000013 )
+  (    2 N-000014 )
+  (    3 N-000002 )
+ )
+ ( /52D9B5E6 $noname  R7 180 {Lib=R}
+  (    1 VCC )
+  (    2 N-000013 )
+ )
+ ( /52D9B652 $noname  D5 1N4148 {Lib=DIODE}
+  (    1 N-000002 )
+  (    2 N-000004 )
+ )
+ ( /52D9B658 $noname  D4 1N4148 {Lib=DIODE}
+  (    1 N-000004 )
+  (    2 N-000019 )
+ )
+ ( /52D9B674 $noname  Q7 FZT753CT {Lib=PNP}
+  (    1 N-000001 )
+  (    2 N-000019 )
+  (    3 VSS )
+ )
+ ( /52D9B695 $noname  R3 2.2k {Lib=R}
+  (    1 N-000019 )
+  (    2 N-000018 )
+ )
+ ( /52D9B69B $noname  Q6 2SA1162S {Lib=PNP}
+  (    1 N-000019 )
+  (    2 N-000018 )
+  (    3 VSS )
+ )
+ ( /52D9B702 $noname  Q5 2SC2712S {Lib=NPN}
+  (    1 VSS )
+  (    2 N-000006 )
+  (    3 N-000018 )
+ )
+ ( /52D9B70F $noname  D3 1N4148 {Lib=DIODE}
+  (    1 N-000005 )
+  (    2 N-000019 )
+ )
+ ( /52D9B7EF $noname  R9 1k {Lib=R}
+  (    1 N-000005 )
+  (    2 N-000006 )
+ )
+ ( /52D9B8A3 $noname  R6 4.7k {Lib=R}
+  (    1 N-000005 )
+  (    2 VSS )
+ )
+ ( /52D9B97A $noname  R4 10 {Lib=R}
+  (    1 OUT )
+  (    2 N-000001 )
+ )
+ ( /52D9B980 $noname  R5 10 {Lib=R}
+  (    1 N-000003 )
+  (    2 OUT )
+ )
+ ( /52D9B9FE $noname  Q8 FZT653CT {Lib=NPN}
+  (    1 N-000003 )
+  (    2 N-000002 )
+  (    3 VCC )
+ )
+ ( /52D9D15E $noname  P1 PWR {Lib=CONN_2}
+  (    1 VCC )
+  (    2 VSS )
+ )
+ ( /52D9D1F5 $noname  P2 CONN_3 {Lib=CONN_3}
+  (    1 IN+ )
+  (    2 IN- )
+  (    3 OUT )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R8
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D5
+ D?
+ S*
+$endlist
+$component D4
+ D?
+ S*
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D3
+ D?
+ S*
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ R4 2
+ Q7 1
+Net 2 "" ""
+ Q9 3
+ D5 1
+ Q8 2
+Net 3 "" ""
+ Q8 1
+ R5 1
+Net 4 "" ""
+ D4 1
+ D5 2
+Net 5 "" ""
+ R9 1
+ R6 1
+ D3 1
+ Q1 4
+Net 6 "" ""
+ Q5 2
+ R9 2
+Net 7 "OUT" "OUT"
+ P2 3
+ R4 1
+ R5 2
+Net 8 "IN-" "IN-"
+ P2 2
+ Q1 1
+Net 9 "IN+" "IN+"
+ P2 1
+ Q1 3
+Net 10 "VSS" "VSS"
+ Q1 5
+ Q7 3
+ R2 2
+ Q6 3
+ Q5 1
+ P1 2
+ R6 2
+Net 11 "VCC" "VCC"
+ R1 1
+ R7 1
+ D2 1
+ P1 1
+ Q8 3
+Net 12 "" ""
+ D2 2
+ D1 1
+Net 13 "" ""
+ R7 2
+ Q9 1
+Net 14 "" ""
+ Q9 2
+ R8 2
+Net 15 "" ""
+ D1 2
+ R2 1
+ R8 1
+ Q4 2
+Net 16 "" ""
+ Q1 2
+ Q4 3
+Net 17 "" ""
+ R1 2
+ Q4 1
+Net 18 "" ""
+ Q6 2
+ R3 2
+ Q5 3
+Net 19 "" ""
+ R3 1
+ Q7 2
+ D4 2
+ Q6 1
+ D3 2
+}
+#End
