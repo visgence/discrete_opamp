@@ -30,13 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:visgence_parts
-LIBS:discreet_opamp-cache
+LIBS:discrete_opamp-cache
 EELAYER 27 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "Discreete Opamp"
+Title "Discrete Opamp"
 Date "18 jan 2014"
 Rev "1"
 Comp "Visgence Inc."
